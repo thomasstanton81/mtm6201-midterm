@@ -14,7 +14,13 @@ header{
 .logo{
     display: flex;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
 }
 
 .logo:hover{
@@ -36,6 +42,17 @@ ul,li{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.reegan{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.robert{
+    display: flex;
+    justify-content: center;
+    padding-left: 560px;
+}
 
 .cupcakes{
     margin: 50px;
@@ -45,13 +62,13 @@ ul,li{
 h1{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
    margin: 20px;
    font-size: large;
-   
 }
 
 a:hover {
@@ -81,4 +98,48 @@ footer{
 .credit{
     color: black;
     padding: 5px;
+}
+
+.biography{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 50%;
+   padding-left: 130px;
+}
+
+h3{
+    padding-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.biography2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 50%;
+    padding-left: 540px;
+}
+
+h4{
+padding-left: 150px;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: underline;
+padding-left: 560px;
+}
+
+h2{
+padding-left: 130px;
+font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.aboutp{
+    padding-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
