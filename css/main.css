@@ -1,11 +1,11 @@
 header{
     background-color: blueviolet;
 }
-
+/* seach icon */
 .fa-search{
     color: burlywood;
 }
-
+/* search icon animation */
 .fa-search:hover{
     transform: scale(1.2,1.2);
     transition: transform 1s;
@@ -22,7 +22,7 @@ header{
     display: flex;
     justify-content: center;
 }
-
+/* logo animation */
 .logo:hover{
     transform: scale(1.2,1.2);
     transition: transform 1s;
@@ -41,7 +41,7 @@ ul,li{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/* adds images positions */
 .reegan{
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@ footer{
     color: black;
     padding: 5px;
 }
-
+/* adds paragraph placement */
 .biography{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -111,8 +111,17 @@ h3{
     padding-left: 150px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    color: blueviolet;
+}
+/* adds hover to names */
+h3:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: scale(1.1,1.1);
+    transition: transform 1.5s;
 }
 
+/* adds paragraph placement */
 .biography2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
@@ -125,6 +134,14 @@ padding-left: 150px;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: underline;
 padding-left: 560px;
+color: blueviolet;
+}
+/* adds hover to names */
+h4:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: scale(1.1,1.1);
+    transition: transform 1.5s;
 }
 
 h2{
@@ -133,13 +150,50 @@ font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     margin: 20px;
 }
-
+/* adds paragraph placement */
 .aboutp{
     padding-left: 130px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.h5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+/* sets width for menulist */
+
+.menulist{
+    padding-left: 70px;
 }
+/* adds style to prices */
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    color: blueviolet;
+    }
+    h5:hover{
+        background-color: blueviolet;
+        color: black;
+        transform: scale(1.1,1.1);
+        transition: transform 1.5s;
+    }
+    /* adds style to options */
+    .options{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color:blueviolet;
+    }
+
+    h6{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        font-size: large;
+        padding-left: 20px;
+        color: blueviolet;
+    }
+    h6:hover{
+        background-color: blueviolet;
+        color: black;
+        transform: scale(1.1,1.1);
+        transition: transform 1.5s;
+    }
