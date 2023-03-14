@@ -24,8 +24,8 @@ header{
 }
 /* logo animation */
 .logo:hover{
-    transform: scale(1.2,1.2);
-    transition: transform 1s;
+    transform: rotateY(2turn) scale(1.2,1.2);
+    transition: transform 3s;
 }
 
 .searchbar{
@@ -44,14 +44,23 @@ ul,li{
 /* adds images positions */
 .reegan{
     display: flex;
-    justify-content: center;
-    padding-left: 150px;
+    justify-content: center; 
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .robert{
     display: flex;
+   justify-content: center;
+   padding-right: 5px;
+   border-radius: 15px;
+}
+
+.noah{
+    display: flex;
     justify-content: center;
-    padding-left: 560px;
+    padding-left: 5px;
+    border-radius: 15px;
 }
 
 .cupcakes{
@@ -63,12 +72,22 @@ h1{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    color: blueviolet; padding-left: 10px;
 }
+
+h1:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: scale(1.05,1.05);
+    transition: transform 1.5s;
+}
+
 
 p{
     font-family: Arial, Helvetica, sans-serif;
    margin: 20px;
    font-size: large;
+   padding-left: 10px;
 }
 
 a:hover {
@@ -87,7 +106,7 @@ footer{
     background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: center :bottom;
 }
 
 .copyright{
@@ -103,19 +122,20 @@ footer{
 .biography{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    width: 50%;
-   padding-left: 130px;
+    width: 55%;
+ float: left;
 }
 
 h3{
-    padding-left: 150px;
+  
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     color: blueviolet;
+    padding-left: 10px ;
+
 }
 /* adds hover to names */
 h3:hover{
-    background-color: blueviolet;
     color: black;
     transform: scale(1.1,1.1);
     transition: transform 1.5s;
@@ -125,42 +145,56 @@ h3:hover{
 .biography2{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    width: 50%;
-    padding-left: 540px;
+    width: 55%;
+    float: right;
+}
+.biography3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width: 70%;
 }
 
 h4{
-padding-left: 150px;
 font-family: Arial, Helvetica, sans-serif;
 text-decoration: underline;
-padding-left: 560px;
 color: blueviolet;
+
 }
 /* adds hover to names */
 h4:hover{
-    background-color: blueviolet;
+ 
     color: black;
     transform: scale(1.1,1.1);
     transition: transform 1.5s;
 }
 
 h2{
-padding-left: 130px;
+padding-left: 110px;
 font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     margin: 20px;
+    color: blueviolet;
 }
+
+h2:hover{
+    background-color: blueviolet;
+    color: black;
+    transform: scale(1.1,1.1);
+    transition: transform 1.5s;
+}
+
 /* adds paragraph placement */
 .aboutp{
-    padding-left: 130px;
+    padding-left: 110px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* sets width for menulist */
 
 .menulist{
-    padding-left: 70px;
+    padding-left: 50px;
 }
+
 /* adds style to prices */
 h5{
     font-family: Arial, Helvetica, sans-serif;
@@ -182,13 +216,14 @@ h5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     background-color:blueviolet;
+
     }
 
     h6{
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: underline;
         font-size: large;
-        padding-left: 20px;
+        padding-left: 30px;
         color: blueviolet;
     }
     h6:hover{
@@ -197,3 +232,46 @@ h5{
         transform: scale(1.1,1.1);
         transition: transform 1.5s;
     }
+
+    /* fixes bakery images */
+
+    .bakery1{
+        border: solid burlywood 3px;
+        border-radius: 15px;
+    }
+
+    .bakery2{
+        border: solid burlywood 3px;
+        border-radius: 15px;
+    }
+
+    .cupcake{
+        border: solid burlywood 3px;
+    }
+/* adds detail to button */
+    .btn{
+        color: red;
+        background-color: blueviolet;
+        height: 60px;
+        width: 100px ;  
+        font-size: larger;
+        margin: 20px 20px 20px 50px;
+        border: solid red 3px;
+        border-radius: 15px;
+  }
+/* adds detail to BUY button while hovering */
+  .btn:hover{
+    opacity: 80%;
+  }
+/* adds detail to images */
+  .menupics{
+    border-radius: 15px;
+  }
+  
+  .divider{
+display: flex; 
+}
+
+.aboutcompany{
+position: relative;
+}
